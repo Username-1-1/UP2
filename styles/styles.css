@@ -1,4 +1,5 @@
-/* body{    
+/* 
+body{    
     position: absolute;
     top: 0%;
     bottom: 0%;
@@ -12,7 +13,7 @@
     background-color: #2f2f2f;
     background: #2f2f2f;
 } */
-
+/* 
 #text{
     position: relative;
 
@@ -30,4 +31,87 @@
     justify-content: center;
     text-align: center;
     color: #ffffff;
+} */
+
+.header{
+    padding: 80px;
+    width: 100%;
+    height: 25%;
+    
+    background: #2f2f2f;
+
+    font-family: 'Futura Lt BT';
+    font-style: normal;
+    font-size: 7vw;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #ffffff;
+}
+
+.navbar{
+    overflow: hidden;
+    background: #2f2f2f;
+}
+
+.navbar a{
+    float: left;
+    display: block;
+
+    padding: 14px 20px;
+    text-decoration: none;
+    font-family: 'Futura Lt BT';
+    font-style: normal;
+    font-size: 3vw;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #ffffff;
+}
+
+
+.navbar a:hover{
+    background: #ddd;
+
+    padding: 14px 20px;
+    text-decoration: none;
+    font-family: 'Futura Lt BT';
+    font-style: normal;
+    font-size: 3vw;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #000000;
+}
+
+.row{
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.side{
+    flex: 30%;
+    background: #ddd;
+    padding: 20px;
+}
+
+.main{
+    flex: 70%;
+    background: #ffffff;
+    padding: 20px;
+}
+
+@media (max-width: 700px){
+    .row{
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 400px){
+    .navbar a{
+        float: none;
+        width: 100%;
+    }
 }
