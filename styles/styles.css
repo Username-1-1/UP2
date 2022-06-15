@@ -93,14 +93,16 @@ body{
 
 .side{
     flex: 30%;
-    background: #ddd;
+    background: #414141;
     padding: 20px;
+    color: #ffffff;
 }
 
 .main{
     flex: 70%;
-    background: #ffffff;
+    background: #4c4c4c;
     padding: 20px;
+    color: #ffffff;
 }
 
 @media (max-width: 700px){
@@ -115,3 +117,4 @@ body{
         width: 100%;
     }
 }
+
